@@ -1,0 +1,16 @@
+$highlight1:   #EF3B20;
+.navbar {
+    background-color: $highlight1;
+    color: #fff;
+}
+
+.navbar-default {
+  border-color: $highlight1;
+  .navbar-nav {
+     li {
+        a {
+          color: #fff;
+        }
+     }
+  }
+}
