@@ -1,11 +1,40 @@
+$highlight1:   #EF3B20;
 .home-hero {
-    height: 100vh;
+    background-color: #eee;
+    height: calc(100vh - 50px);
     position: relative;
+    overflow: hidden;
 }
 .hero-info {
+    margin: 0 auto;
+    margin-top: 20%;
+    padding-bottom: 20%;
     text-align: center;
+}
+h1 {
+    letter-spacing: 1.5px;
+}
+h3 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+p {
+    margin-bottom: 50%;
+}
+.hero-btn {
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $highlight1;
+    border: none;
     position: absolute;
-    top: 50%;
+    bottom: 80px;
     left: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 0);
+    @media screen and (max-width: 640px) {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: translate(0, 0);
+    }
 }
