@@ -10,6 +10,8 @@ import { HeroComponent } from './components/home/hero/hero.component';
 import { MappingComponent } from './components/home/mapping/mapping.component';
 import { MapSearchComponent } from './components/home/mapping/map-search/map-search.component';
 import { MapItemsComponent } from './components/home/mapping/map-items/map-items.component';
+import { StoryComponent } from './components/home/story/story.component';
+import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MapItemsComponent } from './components/home/mapping/map-items/map-items
     HeroComponent,
     MappingComponent,
     MapSearchComponent,
-    MapItemsComponent
+    MapItemsComponent,
+    StoryComponent,
+    StoryItemsComponent
   ],
   imports: [
     BrowserModule,
