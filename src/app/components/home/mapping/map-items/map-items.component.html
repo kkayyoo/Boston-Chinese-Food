@@ -1,3 +1,8 @@
-<p>
-  map-items works!
-</p>
+<div class="row">
+    <div class="col-sm-6 map-detail"  *ngFor="let mapItem of mappingList">
+        <a href="">
+            <img src="{{ mapItem.imagePath }}" alt="{{ mapItem.name }}" class="img-responsive">
+            <p>{{ mapItem.name }}</p>
+        </a>
+    </div>
+</div>

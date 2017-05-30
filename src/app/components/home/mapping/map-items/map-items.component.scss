@@ -1,0 +1,27 @@
+.map-detail {
+    padding: 10px 30px;
+    &:hover {
+        img {
+            border: 3px solid #000;
+        }
+        p {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        background-color: #fff;
+        border: 3px solid #000;
+        color: #000;
+        display: block;
+        font-size: 22px;
+        padding: 6px 12px;
+        position: relative;
+        top: -30px;
+        left: 15px;
+        text-align: center;
+    }
+}
