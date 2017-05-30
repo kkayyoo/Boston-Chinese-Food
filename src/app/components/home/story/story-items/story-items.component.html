@@ -1,3 +1,8 @@
-<p>
-  story-items works!
-</p>
+<div class="row">
+    <div class="col-sm-3 story-detail"  *ngFor="let storyItem of storyList">
+        <a href="">
+            <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
+            <p>{{ storyItem.name }}</p>
+        </a>
+    </div>
+</div>
