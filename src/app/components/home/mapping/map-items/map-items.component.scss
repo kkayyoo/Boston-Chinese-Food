@@ -1,3 +1,5 @@
+$highlight1:   #EF3B20;
+
 .map-detail {
     padding: 10px 30px;
     &:hover {
@@ -24,4 +26,11 @@
         left: 15px;
         text-align: center;
     }
+}
+.map-bt {
+    background-color: $highlight1;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
 }
