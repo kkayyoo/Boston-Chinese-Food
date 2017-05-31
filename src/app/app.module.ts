@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
 import { HeroComponent } from './components/home/hero/hero.component';
 import { MappingComponent } from './components/home/mapping/mapping.component';
 import { MapSearchComponent } from './components/home/mapping/map-search/map-search.component';
@@ -18,6 +19,7 @@ import { StoryItemsComponent } from './components/home/story/story-items/story-i
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    HomeComponent,
     HeroComponent,
     MappingComponent,
     MapSearchComponent,
