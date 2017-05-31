@@ -13,6 +13,8 @@ import { MapSearchComponent } from './components/home/mapping/map-search/map-sea
 import { MapItemsComponent } from './components/home/mapping/map-items/map-items.component';
 import { StoryComponent } from './components/home/story/story.component';
 import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
+import { CuisineComponent } from './components/home/cuisine/cuisine.component';
+import { CuisineItemsComponent } from './components/home/cuisine/cuisine-items/cuisine-items.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { StoryItemsComponent } from './components/home/story/story-items/story-i
     MapSearchComponent,
     MapItemsComponent,
     StoryComponent,
-    StoryItemsComponent
+    StoryItemsComponent,
+    CuisineComponent,
+    CuisineItemsComponent
   ],
   imports: [
     BrowserModule,
