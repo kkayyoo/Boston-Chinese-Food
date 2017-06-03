@@ -1,14 +1,15 @@
-<div class="row">
-    <div class="col-md-5">
-        <div class="cuisine-img">
-            <img src="" alt="">
-        </div>
+<div *ngFor="let cuisineItem of cuisineList; let index = index; let isOdd = odd; let isEven = even"
+     [class.odd] = "isOdd"
+     [class.even] = "isEven"
+     class="row cuisine-detail">
+
+    <div class="cuisine-img">
+        <img src="{{ cuisineItem.imagePath }}" alt="{{ cuisineItem.name }}" class="img-responsive">
     </div>
-    <div class="col-md-7">
-        <div class="cuisine-info">
-            <h3>name</h3>
-            <p>info info info info info</p>
-            <button type="button" name="button">Explore More</button>
-        </div>
+
+    <div class="cuisine-info">
+        <h3>{{ cuisineItem.name }}</h3>
+        <p>{{ cuisineItem.info }}</p>
+        <button class="btn cuisine-btn" type="button" name="button">Explore More</button>
     </div>
 </div>
