@@ -1,0 +1,23 @@
+.cuisine-detail {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    //border-bottom: 1px solid #666;
+}
+.cuisine-img {
+    width: 30%;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+.cuisine-info {
+    width: 70%;
+
+
+}
+.even {
+    flex-direction: row;
+}
+.odd {
+    flex-direction: row-reverse;
+}
