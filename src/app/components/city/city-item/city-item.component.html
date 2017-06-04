@@ -1,3 +1,15 @@
-<p>
-  city-item works!
-</p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="city-search">
+            <h2>Boston Area</h2>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 city-detail" *ngFor="let cityItem of citiesList">
+        <a href="">
+            <img src="{{ cityItem.imagePath }}" alt="{{ cityItem.name }}" class="img-responsive">
+            <p>{{ cityItem.name }}</p>
+        </a>
+    </div>
+</div>
