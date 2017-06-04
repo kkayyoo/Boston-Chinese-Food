@@ -15,6 +15,10 @@ import { StoryComponent } from './components/home/story/story.component';
 import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
 import { CuisineComponent } from './components/home/cuisine/cuisine.component';
 import { CuisineItemsComponent } from './components/home/cuisine/cuisine-items/cuisine-items.component';
+import { CityComponent } from './components/city/city.component';
+import { HeaderComponent } from './components/city/header/header.component';
+import { CityListComponent } from './components/city/city-list/city-list.component';
+import { CityItemComponent } from './components/city/city-item/city-item.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { CuisineItemsComponent } from './components/home/cuisine/cuisine-items/c
     StoryComponent,
     StoryItemsComponent,
     CuisineComponent,
-    CuisineItemsComponent
+    CuisineItemsComponent,
+    CityComponent,
+    HeaderComponent,
+    CityListComponent,
+    CityItemComponent
   ],
   imports: [
     BrowserModule,
