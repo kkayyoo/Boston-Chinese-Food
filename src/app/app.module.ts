@@ -27,6 +27,8 @@ import { CuisineRestaurantComponent } from './components/cuisine-page/cuisine-re
 import { FeaturedFoodItemsComponent } from './components/cuisine-page/featured-food/featured-food-items/featured-food-items.component';
 import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-restaurant/restaurant-items/restaurant-items.component';
 
+import { DropdownDirective } from './components/shared/dropdown.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +52,8 @@ import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-rest
     FeaturedFoodComponent,
     CuisineRestaurantComponent,
     FeaturedFoodItemsComponent,
-    RestaurantItemsComponent
+    RestaurantItemsComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,

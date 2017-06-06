@@ -5,12 +5,32 @@ $highlight1:   #EF3B20;
 }
 
 .navbar-default {
-  border-color: $highlight1;
+  border: none;
   .navbar-nav {
      li {
         a {
           color: #fff;
         }
      }
+     .open {
+       a {
+         background-color: darken($highlight1, 10%);
+       }
+     }
+  }
+  .dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+    li {
+      a {
+        background-color: #fff !important;
+        color: $highlight1;
+        padding: 8px 12px;
+        &:hover {
+          background-color: darken($highlight1, 10%) !important;
+          color: #fff;
+        }
+      }
+    }
   }
 }
