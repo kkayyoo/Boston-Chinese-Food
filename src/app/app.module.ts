@@ -24,6 +24,7 @@ import { CuisineHeaderComponent } from './components/cuisine-page/cuisine-header
 import { FeaturedFoodComponent } from './components/cuisine-page/featured-food/featured-food.component';
 import { CuisineRestaurantComponent } from './components/cuisine-page/cuisine-restaurant/cuisine-restaurant.component';
 import { FeaturedFoodItemsComponent } from './components/cuisine-page/featured-food/featured-food-items/featured-food-items.component';
+import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-restaurant/restaurant-items/restaurant-items.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { FeaturedFoodItemsComponent } from './components/cuisine-page/featured-f
     CuisineHeaderComponent,
     FeaturedFoodComponent,
     CuisineRestaurantComponent,
-    FeaturedFoodItemsComponent
+    FeaturedFoodItemsComponent,
+    RestaurantItemsComponent
   ],
   imports: [
     BrowserModule,
