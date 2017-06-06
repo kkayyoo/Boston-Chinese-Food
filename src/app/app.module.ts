@@ -19,6 +19,10 @@ import { CityComponent } from './components/city/city.component';
 import { HeaderComponent } from './components/city/header/header.component';
 import { CityListComponent } from './components/city/city-list/city-list.component';
 import { CityItemComponent } from './components/city/city-item/city-item.component';
+import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.component';
+import { CuisineHeaderComponent } from './components/cuisine-page/cuisine-header/cuisine-header.component';
+import { FeaturedFoodComponent } from './components/cuisine-page/featured-food/featured-food.component';
+import { CuisineRestaurantComponent } from './components/cuisine-page/cuisine-restaurant/cuisine-restaurant.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { CityItemComponent } from './components/city/city-item/city-item.compone
     CityComponent,
     HeaderComponent,
     CityListComponent,
-    CityItemComponent
+    CityItemComponent,
+    CuisinePageComponent,
+    CuisineHeaderComponent,
+    FeaturedFoodComponent,
+    CuisineRestaurantComponent
   ],
   imports: [
     BrowserModule,
