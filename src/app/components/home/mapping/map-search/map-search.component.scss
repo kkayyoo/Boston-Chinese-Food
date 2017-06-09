@@ -1,0 +1,59 @@
+.city-map {
+    padding: 0;
+}
+.city-btn-lg {
+    position: relative;
+    border: 3px solid #111;
+    overflow: hidden;
+    &:hover {
+        h3 {
+            background-color: transparent;
+        }
+    }
+    h3 {
+        position: absolute;
+        width: 101%;
+        height: 101%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0;
+        background-color: rgba(51, 51, 51, 0.68);
+        color: #fff;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 28%;
+    }
+}
+.city-btn {
+    position: relative;
+    border: 3px solid #111;
+    border-top: 0;
+    overflow: hidden;
+    &:hover {
+        h3 {
+            background-color: transparent;
+        }
+    }
+    h3 {
+        position: absolute;
+        width: 101%;
+        height: 101%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        background-color: rgba(51, 51, 51, 0.68);
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 23%;
+    }
+}
+.even {
+    .city-btn {
+      border-right: 0;
+    }
+}

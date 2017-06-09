@@ -7,3 +7,13 @@ export class Mapping {
         this.name = name;
     }
 }
+
+export class City {
+    public name: string;
+    public backgroudImage: string;
+
+    constructor(name: string, backgroudImage: string) {
+        this.name = name;
+        this.backgroudImage = backgroudImage;
+    }
+}
