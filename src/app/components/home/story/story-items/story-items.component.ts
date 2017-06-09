@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 import { Story } from '../stories.model';
+import { StoryService } from '../story.service';
 
 @Component({
   selector: 'app-story-items',
@@ -7,16 +9,25 @@ import { Story } from '../stories.model';
   styleUrls: ['./story-items.component.scss']
 })
 export class StoryItemsComponent implements OnInit {
-  storyList: Story[] = [
-    new Story('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC Food'),
-    new Story('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ Food'),
-    new Story('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC Food'),
-    new Story('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ Food')
-  ];
+  @Input() index: number;
+  id: number;
+  story: Story;
 
-  constructor() { }
+  storyList: Story[];
+
+  constructor(private storyService: StoryService,
+              private route: ActivatedRoute) { }
 
   ngOnInit() {
+      this.storyList = this.storyService.getStories();
+      this.route.params
+        .subscribe(
+            (params: Params) => {
+                this.id = +params['id'];
+                this.story = this.storyService.getStory(this.id);
+            }
+        );
   }
+
 
 }

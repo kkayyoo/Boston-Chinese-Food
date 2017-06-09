@@ -4,11 +4,20 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { CityComponent } from './components/city/city.component';
 import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.component';
+import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
 
 const appRouters: Routes = [
     {
         path: '',
-        component: HomeComponent
+        redirectTo: '/home',
+        pathMatch: 'full'
+    },
+    {
+        path: 'home',
+        component: HomeComponent,
+        children: [
+          { path: ':id', component: StoryItemsComponent }
+        ]
     },
     {
         path: 'city',

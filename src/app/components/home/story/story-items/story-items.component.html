@@ -1,8 +1,22 @@
 <div class="row">
-    <div class="col-sm-3 story-detail"  *ngFor="let storyItem of storyList">
-        <a href="">
+   <a *ngFor="let storyItem of storyList; let i = index" [routerLink]="[]" fragment="i">
+      <div class="col-sm-3 story-detail">
             <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
             <p>{{ storyItem.name }}</p>
-        </a>
-    </div>
+      </div>
+    </a>
 </div>
+
+<!-- <div class="storyModal" *ngFor="let storyItem of storyList; let i = index" [attr.index]="i" id="i">
+    <div class="modal-detail">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
+            </div>
+            <div class="col-sm-8">
+                <h3>{{ storyItem.name }}</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div> -->
