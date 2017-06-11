@@ -5,12 +5,7 @@
             <app-city-list></app-city-list>
         </div>
         <div class="col-sm-9">
-            <app-city-item
-              *ngIf = "selectedCity; else infoText"
-              [city]="selectedCity"></app-city-item>
-            <ng-template #infoText>
-                <p>Please select a city</p>
-            </ng-template>
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>
