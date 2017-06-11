@@ -1,36 +1,7 @@
 <div class="city-group">
   <ul class="list-group">
-    <li class="list-group-item justify-content-between">
-      Boston
-      <span class="badge badge-default badge-pill">14</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Brookline
-      <span class="badge badge-default badge-pill">2</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Cambridge
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Malden
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Medford
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Quincy
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Somerville
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
-    <li class="list-group-item justify-content-between">
-      Waltham
-      <span class="badge badge-default badge-pill">1</span>
-    </li>
+      <app-city-detail
+        *ngFor = "let cityEl of cityList"
+        [city]="cityEl"></app-city-detail>
   </ul>
 </div>

@@ -28,6 +28,7 @@ import { FeaturedFoodItemsComponent } from './components/cuisine-page/featured-f
 import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-restaurant/restaurant-items/restaurant-items.component';
 
 import { DropdownDirective } from './components/shared/dropdown.directive';
+import { CityDetailComponent } from './components/city/city-list/city-detail/city-detail.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { DropdownDirective } from './components/shared/dropdown.directive';
     CuisineRestaurantComponent,
     FeaturedFoodItemsComponent,
     RestaurantItemsComponent,
-    DropdownDirective
+    DropdownDirective,
+    CityDetailComponent
   ],
   imports: [
     BrowserModule,
