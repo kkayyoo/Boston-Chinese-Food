@@ -68,4 +68,8 @@ export class CityService {
         return this.cityList.slice();
     }
 
+    getCity(index: number) {
+      return this.cityList[index];
+    }
+
 }

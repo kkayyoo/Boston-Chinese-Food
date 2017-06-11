@@ -1,7 +1,8 @@
 <div class="city-group">
   <ul class="list-group">
       <app-city-detail
-        *ngFor = "let cityEl of cityList"
-        [city]="cityEl"></app-city-detail>
+        *ngFor = "let cityEl of cityList; let i = index"
+        [city]="cityEl"
+        [index]="i"></app-city-detail>
   </ul>
 </div>

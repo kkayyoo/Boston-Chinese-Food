@@ -1,6 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 
 import { Cities } from '../cities.model';
+import { CityService } from '../city.service';
 
 @Component({
   selector: 'app-city-item',
@@ -8,11 +10,20 @@ import { Cities } from '../cities.model';
   styleUrls: ['./city-item.component.scss']
 })
 export class CityItemComponent implements OnInit {
-  @Input() city: Cities;
+  city: Cities;
+  id: number;
 
-  constructor() { }
+  constructor(private cityService: CityService,
+              private route: ActivatedRoute) { }
 
   ngOnInit() {
+      this.route.params
+        .subscribe(
+          (params: Params) => {
+            this.id = +params['id'];
+            this.city = this.cityService.getCity(this.id);
+          }
+        );
   }
 
 }
