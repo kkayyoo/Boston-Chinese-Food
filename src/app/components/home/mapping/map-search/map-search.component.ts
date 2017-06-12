@@ -8,12 +8,12 @@ import { City } from '../mappings.model';
 })
 export class MapSearchComponent implements OnInit {
   cityList: City[] = [
-    new City('Boston', '../../../../../assets/image/map/boston.png'),
-    new City('Brookline', '../../../../../assets/image/map/brookline.png'),
-    new City('Cambridge', '../../../../../assets/image/map/cambridge.png'),
-    new City('Malden', '../../../../../assets/image/map/malden.png'),
-    new City('Medford', '../../../../../assets/image/map/medford.png'),
-    new City('Quincy', '../../../../../assets/image/map/quincy.png'),
+    new City('Boston', '../../../../../assets/images/map/boston.png'),
+    new City('Brookline', '../../../../../assets/images/map/brookline.png'),
+    new City('Cambridge', '../../../../../assets/images/map/cambridge.png'),
+    new City('Malden', '../../../../../assets/images/map/malden.png'),
+    new City('Medford', '../../../../../assets/images/map/medford.png'),
+    new City('Quincy', '../../../../../assets/images/map/quincy.png'),
   ];
 
   constructor() { }
