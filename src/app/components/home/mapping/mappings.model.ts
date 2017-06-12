@@ -1,19 +1,13 @@
-export class Mapping {
-    public imagePath: string;
-    public name: string;
-
-    constructor(imagePath: string, name: string) {
-        this.imagePath = imagePath;
-        this.name = name;
-    }
-}
+import { Restaurant } from '../../shared/restaurants.model';
 
 export class City {
     public name: string;
     public backgroudImage: string;
+    public restaurants: Restaurant[];
 
-    constructor(name: string, backgroudImage: string) {
+    constructor(name: string, backgroudImage: string, restaurants: Restaurant[]) {
         this.name = name;
         this.backgroudImage = backgroudImage;
+        this.restaurants = restaurants;
     }
 }

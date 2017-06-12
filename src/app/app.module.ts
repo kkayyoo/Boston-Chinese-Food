@@ -30,6 +30,7 @@ import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-rest
 import { DropdownDirective } from './components/shared/dropdown.directive';
 import { CityDetailComponent } from './components/city/city-list/city-detail/city-detail.component';
 import { CityStartComponent } from './components/city/city-start/city-start.component';
+import { MapDetailComponent } from './components/home/mapping/map-search/map-detail/map-detail.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { CityStartComponent } from './components/city/city-start/city-start.comp
     RestaurantItemsComponent,
     DropdownDirective,
     CityDetailComponent,
-    CityStartComponent
+    CityStartComponent,
+    MapDetailComponent
   ],
   imports: [
     BrowserModule,

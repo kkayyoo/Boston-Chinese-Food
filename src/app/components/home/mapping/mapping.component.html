@@ -6,6 +6,11 @@
         <app-map-search></app-map-search>
     </div>
     <div class="col-sm-6 map-items">
-        <app-map-items></app-map-items>
+        <app-map-items
+          *ngIf="selectedMap; else infoText"
+          [mapping]='selectedMap'></app-map-items>
+        <ng-template #infoText>
+          <p>Please select a city!</p>
+        </ng-template>
     </div>
 </div>

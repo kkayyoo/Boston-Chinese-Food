@@ -1,14 +1,14 @@
 <div class="row">
+  <a>
     <div class="col-sm-12 city-map">
         <div class="city-btn-lg">
             <h3>Chinatown</h3>
             <img src="../../../../../assets/images/map/chinatown.png" alt="Chinatown" class="img-responsive">
         </div>
     </div>
-    <div *ngFor="let cityItem of cityList" class="col-sm-6 city-map">
-        <div class="city-btn">
-            <h3>{{ cityItem.name }}</h3>
-            <img src="{{ cityItem.backgroudImage }}" alt="{{ cityItem.name }}" class="img-responsive">
-        </div>
-    </div>
+  </a>
+
+    <app-map-detail
+        *ngFor="let cityEl of cityList"
+        [mapping]="cityEl"></app-map-detail>
 </div>

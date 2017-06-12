@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Mapping } from '../mappings.model';
+import { Component, OnInit, Input } from '@angular/core';
+
+import { City } from '../mappings.model';
+import { MappingService } from '../mapping.service';
 
 @Component({
   selector: 'app-map-items',
@@ -7,12 +9,7 @@ import { Mapping } from '../mappings.model';
   styleUrls: ['./map-items.component.scss']
 })
 export class MapItemsComponent implements OnInit {
-  mappingList: Mapping[] = [
-    new Mapping('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
-    new Mapping('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
-    new Mapping('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
-    new Mapping('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ')
-  ];
+  @Input() mapping: City;
 
   constructor() { }
 
