@@ -1,14 +1,9 @@
-<div class="row">
-  <a>
-    <div class="col-sm-12 city-map">
-        <div class="city-btn-lg">
-            <h3>Chinatown</h3>
-            <img src="../../../../../assets/images/map/chinatown.png" alt="Chinatown" class="img-responsive">
-        </div>
-    </div>
-  </a>
-
-    <app-map-detail
-        *ngFor="let cityEl of cityList"
-        [mapping]="cityEl"></app-map-detail>
+<div class="row mapping">
+  <app-map-detail
+      *ngFor="let cityEl of cityList; let isFirst = first"
+      [mapping]="cityEl"
+      [class.col-sm-12]="isFirst"
+      [class.col-sm-6]="!isFirst"
+      class="city-map"
+      ></app-map-detail>
 </div>
