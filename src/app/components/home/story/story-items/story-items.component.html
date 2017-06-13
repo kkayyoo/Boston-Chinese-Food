@@ -1,21 +1,46 @@
-<div class="row">
+<!-- <div class="row">
    <a *ngFor="let storyItem of storyList; let i = index" (click)="modal.show()" >
       <div class="col-sm-3 story-detail">
             <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
             <p>{{ storyItem.name }}</p>
       </div>
     </a>
+</div> -->
+<div class="row">
+   <a (click)="modal1.show()" >
+      <div class="col-sm-3 story-detail">
+            <img src="" alt="" class="img-responsive">
+            <p>abc</p>
+      </div>
+    </a>
+    <a (click)="modal2.show()" >
+       <div class="col-sm-3 story-detail">
+             <img src="" alt="" class="img-responsive">
+             <p>123</p>
+       </div>
+     </a>
 </div>
-
-<app-story-modal #modal>
+<app-story-modal #modal1>
     <div class="app-modal-header">
-      header
+      <h2>abc</h2>
     </div>
     <div class="app-modal-body">
       Whatever content you like, form fields, anything
     </div>
     <div class="app-modal-footer">
-      <button type="button" class="btn btn-default" (click)="modal.hide()">Close</button>
+      <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+    </div>
+</app-story-modal>
+
+<app-story-modal #modal2>
+    <div class="app-modal-header">
+      <h2>123</h2>
+    </div>
+    <div class="app-modal-body">
+      Whatever content you like, form fields, anything
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal2.hide()">Close</button>
     </div>
 </app-story-modal>
 <!-- <app-modal>

@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Story } from '../stories.model';
+import { StoryService } from '../story.service';
+
 @Component({
   selector: 'app-story-modal',
   templateUrl: './story-modal.component.html',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StoryModalComponent implements OnInit {
 
-  constructor() { }
+  storyList: Story[];
+
+  constructor(private storyService: StoryService) { }
 
   ngOnInit() {
+    this.storyList = this.storyService.getStories();
   }
 
   public visible = false;
