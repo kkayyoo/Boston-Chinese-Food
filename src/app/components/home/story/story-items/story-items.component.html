@@ -9,32 +9,47 @@
 <div class="row">
    <a (click)="modal1.show()" >
       <div class="col-sm-3 story-detail">
-            <img src="" alt="" class="img-responsive">
-            <p>abc</p>
+          <img src="../../../../assets/images/story/general-tsos-chicken.png" alt="" class="img-responsive">
+          <p>General Tso's Chicken</p>
       </div>
     </a>
     <a (click)="modal2.show()" >
        <div class="col-sm-3 story-detail">
-             <img src="" alt="" class="img-responsive">
-             <p>123</p>
+            <img src="../../../../assets/images/story/feipian.png" alt="" class="img-responsive">
+            <p>Fuqi Feipian</p>
        </div>
      </a>
+     <a (click)="modal3.show()" >
+        <div class="col-sm-3 story-detail">
+            <img src="../../../../assets/images/story/newyear.png" alt="" class="img-responsive">
+            <p>Chinese New Year Dishes</p>
+        </div>
+      </a>
+      <a (click)="modal4.show()" >
+         <div class="col-sm-3 story-detail">
+              <img src="../../../../assets/images/story/dumplings.png" alt="" class="img-responsive">
+              <p>Chinese Dumplings</p>
+         </div>
+       </a>
 </div>
+
+<!-- General Tso's Chicken -->
 <app-story-modal #modal1>
     <div class="app-modal-header">
-      <h2>abc</h2>
+      <h2>General Tso's Chicken</h2>
     </div>
     <div class="app-modal-body">
-      Whatever content you like, form fields, anything
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/bh5piNP9aYE?ecver=1" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="app-modal-footer">
       <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
     </div>
 </app-story-modal>
 
+<!-- Fuqi Feipian -->
 <app-story-modal #modal2>
     <div class="app-modal-header">
-      <h2>123</h2>
+      <h2>Fuqi Feipian (Beef in Chili Sauce)</h2>
     </div>
     <div class="app-modal-body">
       Whatever content you like, form fields, anything
@@ -43,28 +58,29 @@
       <button type="button" class="btn btn-default" (click)="modal2.hide()">Close</button>
     </div>
 </app-story-modal>
-<!-- <app-modal>
-  <div class="app-modal-header">
-    header
-  </div>
-  <div class="app-modal-body">
-    Whatever content you like, form fields, anything
-  </div>
-  <div class="app-modal-footer">
-    <button type="button" class="btn btn-default" (click)="modal.hide()">Close</button>
-  </div>
-</app-modal> -->
 
-<!-- <div class="storyModal" *ngFor="let storyItem of storyList; let i = index" [attr.index]="i" id="i">
-    <div class="modal-detail">
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
-            </div>
-            <div class="col-sm-8">
-                <h3>{{ storyItem.name }}</h3>
-                <p></p>
-            </div>
-        </div>
+<!-- Chinese New Year Dishes -->
+<app-story-modal #modal3>
+    <div class="app-modal-header">
+      <h2>Chinese New Year Dishes</h2>
     </div>
-</div> -->
+    <div class="app-modal-body">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/LMJ3PjaZwMU?ecver=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal3.hide()">Close</button>
+    </div>
+</app-story-modal>
+
+<!-- Chinese Dumplings -->
+<app-story-modal #modal4>
+    <div class="app-modal-header">
+      <h2>Chinese Dumplings</h2>
+    </div>
+    <div class="app-modal-body">
+      Whatever content you like, form fields, anything
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal4.hide()">Close</button>
+    </div>
+</app-story-modal>

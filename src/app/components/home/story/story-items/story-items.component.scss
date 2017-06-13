@@ -1,0 +1,23 @@
+a {
+    cursor: pointer;
+}
+.story-detail {
+    p {
+        background-color: #EF3B20;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px;
+        text-align: center;
+
+    }
+}
+.app-modal-header {
+    text-align: center;
+}
+.app-modal-body {
+  margin: 20px auto;
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+}
