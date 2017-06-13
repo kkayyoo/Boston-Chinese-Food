@@ -31,6 +31,7 @@ import { DropdownDirective } from './components/shared/dropdown.directive';
 import { CityDetailComponent } from './components/city/city-list/city-detail/city-detail.component';
 import { CityStartComponent } from './components/city/city-start/city-start.component';
 import { MapDetailComponent } from './components/home/mapping/map-search/map-detail/map-detail.component';
+import { StoryModalComponent } from './components/home/story/story-modal/story-modal.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { MapDetailComponent } from './components/home/mapping/map-search/map-det
     DropdownDirective,
     CityDetailComponent,
     CityStartComponent,
-    MapDetailComponent
+    MapDetailComponent,
+    StoryModalComponent
   ],
   imports: [
     BrowserModule,

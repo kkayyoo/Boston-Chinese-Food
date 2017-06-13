@@ -1,11 +1,34 @@
 <div class="row">
-   <a *ngFor="let storyItem of storyList; let i = index" [routerLink]="[]" fragment="i">
+   <a *ngFor="let storyItem of storyList; let i = index" (click)="modal.show()" >
       <div class="col-sm-3 story-detail">
             <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
             <p>{{ storyItem.name }}</p>
       </div>
     </a>
 </div>
+
+<app-story-modal #modal>
+    <div class="app-modal-header">
+      header
+    </div>
+    <div class="app-modal-body">
+      Whatever content you like, form fields, anything
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal.hide()">Close</button>
+    </div>
+</app-story-modal>
+<!-- <app-modal>
+  <div class="app-modal-header">
+    header
+  </div>
+  <div class="app-modal-body">
+    Whatever content you like, form fields, anything
+  </div>
+  <div class="app-modal-footer">
+    <button type="button" class="btn btn-default" (click)="modal.hide()">Close</button>
+  </div>
+</app-modal> -->
 
 <!-- <div class="storyModal" *ngFor="let storyItem of storyList; let i = index" [attr.index]="i" id="i">
     <div class="modal-detail">
