@@ -7,60 +7,55 @@
     </a>
 </div> -->
 <div class="row">
-   <a (click)="modal1.show()" >
-      <div class="col-sm-3 story-detail">
-          <img src="../../../../assets/images/story/general-tsos-chicken.png" alt="" class="img-responsive">
-          <p>General Tso's Chicken</p>
-      </div>
-    </a>
-    <a (click)="modal2.show()" >
+    <a (click)="modal1.show()" >
        <div class="col-sm-3 story-detail">
             <img src="../../../../assets/images/story/feipian.png" alt="" class="img-responsive">
             <p>Fuqi Feipian</p>
        </div>
      </a>
-     <a (click)="modal3.show()" >
+     <a (click)="modal2.show()" >
         <div class="col-sm-3 story-detail">
             <img src="../../../../assets/images/story/newyear.png" alt="" class="img-responsive">
             <p>Chinese New Year Dishes</p>
         </div>
       </a>
-      <a (click)="modal4.show()" >
+      <a (click)="modal3.show()" >
          <div class="col-sm-3 story-detail">
               <img src="../../../../assets/images/story/dumplings.png" alt="" class="img-responsive">
               <p>Chinese Dumplings</p>
          </div>
        </a>
+       <a (click)="modal4.show()" >
+          <div class="col-sm-3 story-detail">
+              <img src="../../../../assets/images/story/general-tsos-chicken.png" alt="" class="img-responsive">
+              <p>General Tso's Chicken</p>
+          </div>
+        </a>
 </div>
 
-<!-- General Tso's Chicken -->
+<!-- Fuqi Feipian -->
 <app-story-modal #modal1>
     <div class="app-modal-header">
-      <h2>General Tso's Chicken</h2>
+      <h2>Fuqi Feipian (Beef in Chili Sauce)</h2>
     </div>
     <div class="app-modal-body">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/bh5piNP9aYE?ecver=1" frameborder="0" allowfullscreen></iframe>
+      <div class="row">
+          <div class="col-md-7 col-sm-12 story-video">
+              <h3>How to cook Fuqi Feipian</h3>
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/UX_BrO6UJDg?ecver=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <p>In the 1930s, there was a married couple in Chengdu famous for making beef slices. The husband Guo Zhaohua and his wife Zhang Tianzheng were very particular about the beef slices they made, and often experimented with new ingredients. As a result, their beef slices had a distinct taste which was well-received by customers, so that no one could resist the charming smell in their street. However, mischievous children sometimes would pull a prank on the couples and stick a paper notes that says "Married Couple's Offal Slices" (Fuqi Feipian) on their backs. And due to this, people would yell the words out. Later on, a merchant tried the married couple's beef slices and was so satisfied he gave them a gold-lettered plaque that read "Fuqi feipian" (夫妻废片), and the name has stuck ever since.</p>
+          </div>
+      </div>
     </div>
     <div class="app-modal-footer">
       <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
     </div>
 </app-story-modal>
 
-<!-- Fuqi Feipian -->
-<app-story-modal #modal2>
-    <div class="app-modal-header">
-      <h2>Fuqi Feipian (Beef in Chili Sauce)</h2>
-    </div>
-    <div class="app-modal-body">
-      Whatever content you like, form fields, anything
-    </div>
-    <div class="app-modal-footer">
-      <button type="button" class="btn btn-default" (click)="modal2.hide()">Close</button>
-    </div>
-</app-story-modal>
-
 <!-- Chinese New Year Dishes -->
-<app-story-modal #modal3>
+<app-story-modal #modal2>
     <div class="app-modal-header">
       <h2>Chinese New Year Dishes</h2>
     </div>
@@ -68,17 +63,40 @@
       <iframe width="640" height="360" src="https://www.youtube.com/embed/LMJ3PjaZwMU?ecver=1" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="app-modal-footer">
-      <button type="button" class="btn btn-default" (click)="modal3.hide()">Close</button>
+      <button type="button" class="btn btn-default" (click)="modal2.hide()">Close</button>
     </div>
 </app-story-modal>
 
 <!-- Chinese Dumplings -->
-<app-story-modal #modal4>
+<app-story-modal #modal3>
     <div class="app-modal-header">
       <h2>Chinese Dumplings</h2>
     </div>
     <div class="app-modal-body">
-      Whatever content you like, form fields, anything
+        <div class="row">
+            <div class="col-md-7 col-sm-12 story-video">
+                <h3>How to fold a dumpling</h3>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/84-QPpmIleA?ecver=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <p>Dumplings are a traditional Spring Festival food in northern China, but not in the south. On the eve of the Spring Festival, dumplings have an irreplaceable place in many New Year's Eve banquets, though some areas choose to eat dumplings after New Year's Eve.</p>
+              <p>Dumplings are a representative Chinese cuisine, with both shape and filling having cultural meaning. That's why they're essential for some during Spring Festival, as they express their aspirations for a better life, and hopes for certain blessings.</p>
+              <p>Symbolizing Wealth -- Eating dumplings at the Spring Festival is said to bring good fortune financially, as dumplings look like ingots (元宝), the currency used in old times.</p>
+            </div>
+        </div>
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal3.hide()">Close</button>
+    </div>
+</app-story-modal>
+
+<!-- General Tso's Chicken -->
+<app-story-modal #modal4>
+    <div class="app-modal-header">
+      <h2>General Tso's Chicken</h2>
+    </div>
+    <div class="app-modal-body">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/bh5piNP9aYE?ecver=1" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="app-modal-footer">
       <button type="button" class="btn btn-default" (click)="modal4.hide()">Close</button>
