@@ -21,11 +21,6 @@ import { HeaderComponent } from './components/city/header/header.component';
 import { CityListComponent } from './components/city/city-list/city-list.component';
 import { CityItemComponent } from './components/city/city-item/city-item.component';
 import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.component';
-import { CuisineHeaderComponent } from './components/cuisine-page/cuisine-header/cuisine-header.component';
-import { FeaturedFoodComponent } from './components/cuisine-page/featured-food/featured-food.component';
-import { CuisineRestaurantComponent } from './components/cuisine-page/cuisine-restaurant/cuisine-restaurant.component';
-import { FeaturedFoodItemsComponent } from './components/cuisine-page/featured-food/featured-food-items/featured-food-items.component';
-import { RestaurantItemsComponent } from './components/cuisine-page/cuisine-restaurant/restaurant-items/restaurant-items.component';
 
 import { DropdownDirective } from './components/shared/dropdown.directive';
 import { CityDetailComponent } from './components/city/city-list/city-detail/city-detail.component';
@@ -55,11 +50,6 @@ import { LuFoodComponent } from './components/cuisine-page/shangdong/lu-food/lu-
     CityListComponent,
     CityItemComponent,
     CuisinePageComponent,
-    CuisineHeaderComponent,
-    FeaturedFoodComponent,
-    CuisineRestaurantComponent,
-    FeaturedFoodItemsComponent,
-    RestaurantItemsComponent,
     DropdownDirective,
     CityDetailComponent,
     CityStartComponent,
