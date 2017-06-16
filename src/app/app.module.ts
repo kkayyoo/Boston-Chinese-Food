@@ -32,6 +32,9 @@ import { CityDetailComponent } from './components/city/city-list/city-detail/cit
 import { CityStartComponent } from './components/city/city-start/city-start.component';
 import { MapDetailComponent } from './components/home/mapping/map-search/map-detail/map-detail.component';
 import { StoryModalComponent } from './components/home/story/story-modal/story-modal.component';
+import { ShangdongComponent } from './components/cuisine-page/shangdong/shangdong.component';
+import { LuRestaurantComponent } from './components/cuisine-page/shangdong/lu-restaurant/lu-restaurant.component';
+import { LuFoodComponent } from './components/cuisine-page/shangdong/lu-food/lu-food.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +64,10 @@ import { StoryModalComponent } from './components/home/story/story-modal/story-m
     CityDetailComponent,
     CityStartComponent,
     MapDetailComponent,
-    StoryModalComponent
+    StoryModalComponent,
+    ShangdongComponent,
+    LuRestaurantComponent,
+    LuFoodComponent
   ],
   imports: [
     BrowserModule,

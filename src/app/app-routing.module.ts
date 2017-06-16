@@ -7,6 +7,7 @@ import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.com
 import { CityStartComponent } from './components/city/city-start/city-start.component';
 import { CityItemComponent } from './components/city/city-item/city-item.component';
 import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
+import { ShangdongComponent } from './components/cuisine-page/shangdong/shangdong.component';
 
 const appRouters: Routes = [
     {
@@ -31,7 +32,11 @@ const appRouters: Routes = [
     },
     {
         path: 'cuisine',
-        component: CuisinePageComponent
+        component: CuisinePageComponent,
+        children: [
+          { path: 'shangdong', component: ShangdongComponent }
+        ]
+
     },
 ];
 
