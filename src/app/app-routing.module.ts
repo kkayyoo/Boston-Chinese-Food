@@ -10,6 +10,7 @@ import { StoryItemsComponent } from './components/home/story/story-items/story-i
 import { ShangdongComponent } from './components/cuisine-page/shangdong/shangdong.component';
 import { CantoneseComponent } from './components/cuisine-page/cantonese/cantonese.component';
 import { SichuanComponent } from './components/cuisine-page/sichuan/sichuan.component';
+import { HuaiyangComponent } from './components/cuisine-page/huaiyang/huaiyang.component';
 
 const appRouters: Routes = [
     {
@@ -39,6 +40,7 @@ const appRouters: Routes = [
           { path: 'shangdong', component: ShangdongComponent },
           { path: 'cantonese', component: CantoneseComponent },
           { path: 'sichuan', component: SichuanComponent },
+          { path: 'huaiyang', component: HuaiyangComponent },
         ]
 
     },

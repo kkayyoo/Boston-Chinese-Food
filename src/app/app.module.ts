@@ -36,6 +36,9 @@ import { YueFoodComponent } from './components/cuisine-page/cantonese/yue-food/y
 import { SichuanComponent } from './components/cuisine-page/sichuan/sichuan.component';
 import { ChuanRestaurantComponent } from './components/cuisine-page/sichuan/chuan-restaurant/chuan-restaurant.component';
 import { ChuanFoodComponent } from './components/cuisine-page/sichuan/chuan-food/chuan-food.component';
+import { HuaiyangComponent } from './components/cuisine-page/huaiyang/huaiyang.component';
+import { HuaiRestaurantComponent } from './components/cuisine-page/huaiyang/huai-restaurant/huai-restaurant.component';
+import { HuaiFoodComponent } from './components/cuisine-page/huaiyang/huai-food/huai-food.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +72,10 @@ import { ChuanFoodComponent } from './components/cuisine-page/sichuan/chuan-food
     YueFoodComponent,
     SichuanComponent,
     ChuanRestaurantComponent,
-    ChuanFoodComponent
+    ChuanFoodComponent,
+    HuaiyangComponent,
+    HuaiRestaurantComponent,
+    HuaiFoodComponent
   ],
   imports: [
     BrowserModule,
