@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-sm-12">
+        <h2>Featured Food</h2>
+    </div>
+</div>
+
+<div *ngFor="let foodItem of chuanFoodList; let index = index; let isOdd = odd; let isEven = even"
+     [class.odd] = "isOdd"
+     [class.even] = "isEven"
+     class="row cuisine-detail">
+
+    <div class="cuisine-img">
+      <div class="cuisine-img-dt">
+          <img src="{{ foodItem.imagePath }}" alt="{{ foodItem.name }}" class="img-responsive">
+      </div>
+        <div class="cuisine-bg">
+            <img src="../../../../../assets/images/cuisines/cuisine_bg.png" alt="" class="img-responsive">
+        </div>
+
+    </div>
+
+    <div class="cuisine-info">
+        <h3>{{ foodItem.name }}</h3>
+        <p>{{ foodItem.info }}</p>
+    </div>
+</div>
