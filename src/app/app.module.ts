@@ -30,6 +30,9 @@ import { StoryModalComponent } from './components/home/story/story-modal/story-m
 import { ShangdongComponent } from './components/cuisine-page/shangdong/shangdong.component';
 import { LuRestaurantComponent } from './components/cuisine-page/shangdong/lu-restaurant/lu-restaurant.component';
 import { LuFoodComponent } from './components/cuisine-page/shangdong/lu-food/lu-food.component';
+import { CantoneseComponent } from './components/cuisine-page/cantonese/cantonese.component';
+import { YueRestaurantComponent } from './components/cuisine-page/cantonese/yue-restaurant/yue-restaurant.component';
+import { YueFoodComponent } from './components/cuisine-page/cantonese/yue-food/yue-food.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +60,10 @@ import { LuFoodComponent } from './components/cuisine-page/shangdong/lu-food/lu-
     StoryModalComponent,
     ShangdongComponent,
     LuRestaurantComponent,
-    LuFoodComponent
+    LuFoodComponent,
+    CantoneseComponent,
+    YueRestaurantComponent,
+    YueFoodComponent
   ],
   imports: [
     BrowserModule,
