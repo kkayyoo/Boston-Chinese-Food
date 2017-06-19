@@ -1,9 +1,11 @@
 export class Restaurant {
-    public imagePath: string;
     public name: string;
+    public link: string;
+    public imagePath: string;
 
-    constructor(imagePath: string, name: string) {
-        this.imagePath = imagePath;
+    constructor(name: string, link: string, imagePath: string) {
         this.name = name;
+        this.link = link;
+        this.imagePath = imagePath;
     }
 }

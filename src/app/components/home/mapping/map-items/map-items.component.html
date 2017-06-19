@@ -3,7 +3,7 @@
         <h2>{{ mapping.name }}</h2>
     </div>
     <div class="col-sm-6 map-detail" *ngFor="let mapItem of mapping.restaurants">
-        <a href="">
+        <a routerLink="{{ mapItem.link }}">
             <img src="{{ mapItem.imagePath }}" alt="{{ mapItem.name }}" class="img-responsive">
             <p>{{ mapItem.name }}</p>
         </a>
