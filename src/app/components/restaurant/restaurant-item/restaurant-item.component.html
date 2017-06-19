@@ -1,6 +1,3 @@
-<div class="" *ngFor = " let res of restaurantList; let i = index;">
-
-</div>
 <!-- <header>
 
 </header> -->
@@ -17,14 +14,31 @@
         <div class="col-sm-8 restaurant-info">
             <h1>{{ restaurant.name }}</h1>
             <div class="row">
-              <div class="col-sm-6 restaurant-info-dt">
-                  <h3>TEL: {{ restaurant.phone }}</h3>
-                  <h3>Address: {{ restaurant.address }}</h3>
-              </div>
-              <div class="col-sm-6 restaurant-info-dt">
-                  <h3>Cuisine Type: {{ restaurant.type }}</h3>
-                  <h3>Price: {{ restaurant.price }}</h3>
-              </div>
+                <div class="col-sm-6 restaurant-info-dt">
+                    <h3>TEL: {{ restaurant.phone }}</h3>
+                    <h3>Address: {{ restaurant.address }}</h3>
+                </div>
+                <div class="col-sm-6 restaurant-info-dt">
+                    <h3>Cuisine Type: {{ restaurant.type }}</h3>
+                    <h3>Price: {{ restaurant.price }}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="res-food">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Recommended Food</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 res-food-dt"  *ngFor="let foodItem of restaurant.food">
+                <img src="{{ foodItem.imagePath }}" alt="{{ foodItem.name }}" class="img-responsive">
+                <p>{{ foodItem.name }}</p>
+            </div>
         </div>
     </div>
 </div>
