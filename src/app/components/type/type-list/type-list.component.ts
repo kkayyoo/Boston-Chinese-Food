@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { Cities } from '../cities.model';
-import { CityService } from '../city.service';
+import { Types } from '../types.model';
+import { TypeService } from '../type.service';
 
 @Component({
-  selector: 'app-city-list',
-  templateUrl: './city-list.component.html',
-  styleUrls: ['./city-list.component.scss']
+  selector: 'app-type-list',
+  templateUrl: './type-list.component.html',
+  styleUrls: ['./type-list.component.scss']
 })
-export class CityListComponent implements OnInit {
-  cityList: Cities[] = [];
+export class TypeListComponent implements OnInit {
+  typeList: Types[] = [];
 
-  constructor(private cityService: CityService) { }
+  constructor(private typeService: TypeService) { }
 
   ngOnInit() {
-    this.cityList = this.cityService.getCities();
+    this.typeList = this.typeService.getTypes();
   }
 
 

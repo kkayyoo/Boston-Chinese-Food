@@ -1,14 +1,14 @@
 import { EventEmitter, Injectable } from '@angular/core';
 import { Restaurant } from '../shared/restaurants.model';
-import { Cities } from './cities.model';
+import { Types } from './types.model';
 
 @Injectable()
-export class CityService {
-    citySelected = new EventEmitter<Cities>();
-    cityRestaurants: Restaurant[] = [];
+export class TypeService {
+    typeSelected = new EventEmitter<Types>();
+    typeRestaurants: Restaurant[] = [];
 
-    private cityList: Cities[] = [
-        new Cities('Boston', '12',
+    private typeList: Types[] = [
+        new Types('Boston', '12',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
@@ -17,7 +17,7 @@ export class CityService {
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ')
         ]),
-        new Cities('Brookline', '3',
+        new Types('Brookline', '3',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC1'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ1'),
@@ -26,7 +26,7 @@ export class CityService {
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC1'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ1')
         ]),
-        new Cities('Cambridge', '5',
+        new Types('Cambridge', '5',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC2'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ2'),
@@ -35,7 +35,7 @@ export class CityService {
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC2'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ2')
         ]),
-        new Cities('Malden', '8',
+        new Types('Malden', '8',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
@@ -44,7 +44,7 @@ export class CityService {
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ')
         ]),
-        new Cities('Medford', '8',
+        new Types('Medford', '8',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
@@ -53,7 +53,7 @@ export class CityService {
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ')
         ]),
-        new Cities('Quincy', '8',
+        new Types('Quincy', '8',
         [
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new Restaurant('http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
@@ -64,12 +64,12 @@ export class CityService {
         ]),
     ];
 
-    getCities() {
-        return this.cityList.slice();
+    getTypes() {
+        return this.typeList.slice();
     }
 
-    getCity(index: number) {
-      return this.cityList[index];
+    getType(index: number) {
+      return this.typeList[index];
     }
 
 }

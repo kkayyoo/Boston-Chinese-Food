@@ -1,14 +1,14 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Cities } from '../../cities.model';
+import { Types } from '../../types.model';
 
 @Component({
-  selector: 'app-city-detail',
-  templateUrl: './city-detail.component.html',
-  styleUrls: ['./city-detail.component.scss']
+  selector: 'app-type-detail',
+  templateUrl: './type-detail.component.html',
+  styleUrls: ['./type-detail.component.scss']
 })
-export class CityDetailComponent implements OnInit {
-  @Input() city: Cities;
+export class TypeDetailComponent implements OnInit {
+  @Input() type: Types;
   @Input() index: number;
 
   ngOnInit() {

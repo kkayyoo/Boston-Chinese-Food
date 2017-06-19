@@ -16,17 +16,26 @@ import { StoryComponent } from './components/home/story/story.component';
 import { StoryItemsComponent } from './components/home/story/story-items/story-items.component';
 import { CuisineComponent } from './components/home/cuisine/cuisine.component';
 import { CuisineItemsComponent } from './components/home/cuisine/cuisine-items/cuisine-items.component';
+
 import { CityComponent } from './components/city/city.component';
 import { HeaderComponent } from './components/city/header/header.component';
 import { CityListComponent } from './components/city/city-list/city-list.component';
 import { CityItemComponent } from './components/city/city-item/city-item.component';
-import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.component';
-
-import { DropdownDirective } from './components/shared/dropdown.directive';
 import { CityDetailComponent } from './components/city/city-list/city-detail/city-detail.component';
 import { CityStartComponent } from './components/city/city-start/city-start.component';
+
+import { TypeComponent } from './components/type/type.component';
+import { TypeListComponent } from './components/type/type-list/type-list.component';
+import { TypeItemComponent } from './components/type/type-item/type-item.component';
+import { TypeDetailComponent } from './components/type/type-list/type-detail/type-detail.component';
+import { TypeStartComponent } from './components/type/type-start/type-start.component';
+
+
+import { DropdownDirective } from './components/shared/dropdown.directive';
 import { MapDetailComponent } from './components/home/mapping/map-search/map-detail/map-detail.component';
 import { StoryModalComponent } from './components/home/story/story-modal/story-modal.component';
+
+import { CuisinePageComponent } from './components/cuisine-page/cuisine-page.component';
 import { ShangdongComponent } from './components/cuisine-page/shangdong/shangdong.component';
 import { LuRestaurantComponent } from './components/cuisine-page/shangdong/lu-restaurant/lu-restaurant.component';
 import { LuFoodComponent } from './components/cuisine-page/shangdong/lu-food/lu-food.component';
@@ -62,6 +71,11 @@ import { HuaiFoodComponent } from './components/cuisine-page/huaiyang/huai-food/
     DropdownDirective,
     CityDetailComponent,
     CityStartComponent,
+    TypeComponent,
+    TypeListComponent,
+    TypeItemComponent,
+    TypeDetailComponent,
+    TypeStartComponent,
     MapDetailComponent,
     StoryModalComponent,
     ShangdongComponent,

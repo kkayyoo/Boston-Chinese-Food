@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
-import { Cities } from '../cities.model';
-import { CityService } from '../city.service';
+import { Types } from '../types.model';
+import { TypeService } from '../type.service';
 
 @Component({
-  selector: 'app-city-item',
-  templateUrl: './city-item.component.html',
-  styleUrls: ['./city-item.component.scss']
+  selector: 'app-type-item',
+  templateUrl: './type-item.component.html',
+  styleUrls: ['./type-item.component.scss']
 })
-export class CityItemComponent implements OnInit {
-  city: Cities;
+export class TypeItemComponent implements OnInit {
+  type: Types;
   id: number;
 
-  constructor(private cityService: CityService,
+  constructor(private typeService: TypeService,
               private route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -21,7 +21,7 @@ export class CityItemComponent implements OnInit {
         .subscribe(
           (params: Params) => {
             this.id = +params['id'];
-            this.city = this.cityService.getCity(this.id);
+            this.type = this.typeService.getType(this.id);
           }
         );
   }

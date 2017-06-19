@@ -1,6 +1,6 @@
 import { Restaurant } from '../shared/restaurants.model';
 
-export class Cities {
+export class Types {
     public name: string;
     public num: string;
     public restaurants: Restaurant[];

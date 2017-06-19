@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-import { Cities } from './cities.model';
-import { CityService } from './city.service';
+import { Types } from './types.model';
+import { TypeService } from './type.service';
 
 @Component({
-  selector: 'app-city',
-  templateUrl: './city.component.html',
-  styleUrls: ['./city.component.scss'],
-  providers: [CityService]
+  selector: 'app-type',
+  templateUrl: './type.component.html',
+  styleUrls: ['./type.component.scss'],
+  providers: [TypeService]
 })
-export class CityComponent implements OnInit {
-  selectedCity: Cities;
+export class TypeComponent implements OnInit {
+  selectedType: Types;
 
-  constructor(private cityService: CityService) { }
+  constructor(private typeService: TypeService) { }
 
   ngOnInit() {
-    this.cityService.citySelected
+    this.typeService.typeSelected
       .subscribe(
-          (city: Cities) => {
-              this.selectedCity = city;
+          (type: Types) => {
+              this.selectedType = type;
           }
       );
   }
