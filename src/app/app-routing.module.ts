@@ -37,7 +37,7 @@ const appRouters: Routes = [
         path: 'city',
         component: CityComponent,
         children: [
-          { path: '', component: CityStartComponent },
+          //{ path: '', component: CityItemComponent },
           { path: ':id', component: CityItemComponent }
         ]
     },
@@ -45,7 +45,7 @@ const appRouters: Routes = [
         path: 'type',
         component: TypeComponent,
         children: [
-          { path: '', component: TypeStartComponent },
+          //{ path: '', component: TypeStartComponent },
           { path: ':id', component: TypeItemComponent }
         ]
     },
