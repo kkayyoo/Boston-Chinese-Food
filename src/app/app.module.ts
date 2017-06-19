@@ -48,6 +48,8 @@ import { ChuanFoodComponent } from './components/cuisine-page/sichuan/chuan-food
 import { HuaiyangComponent } from './components/cuisine-page/huaiyang/huaiyang.component';
 import { HuaiRestaurantComponent } from './components/cuisine-page/huaiyang/huai-restaurant/huai-restaurant.component';
 import { HuaiFoodComponent } from './components/cuisine-page/huaiyang/huai-food/huai-food.component';
+import { RestaurantComponent } from './components/restaurant/restaurant.component';
+import { RestaurantItemComponent } from './components/restaurant/restaurant-item/restaurant-item.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +91,9 @@ import { HuaiFoodComponent } from './components/cuisine-page/huaiyang/huai-food/
     ChuanFoodComponent,
     HuaiyangComponent,
     HuaiRestaurantComponent,
-    HuaiFoodComponent
+    HuaiFoodComponent,
+    RestaurantComponent,
+    RestaurantItemComponent
   ],
   imports: [
     BrowserModule,

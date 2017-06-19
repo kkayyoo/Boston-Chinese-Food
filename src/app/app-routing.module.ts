@@ -15,6 +15,11 @@ import { CantoneseComponent } from './components/cuisine-page/cantonese/cantones
 import { SichuanComponent } from './components/cuisine-page/sichuan/sichuan.component';
 import { HuaiyangComponent } from './components/cuisine-page/huaiyang/huaiyang.component';
 
+import { RestaurantComponent } from './components/restaurant/restaurant.component';
+import { RestaurantItemComponent } from './components/restaurant/restaurant-item/restaurant-item.component';
+
+
+
 const appRouters: Routes = [
     {
         path: '',
@@ -55,6 +60,13 @@ const appRouters: Routes = [
         ]
 
     },
+    {
+        path: 'restaurant',
+        component: RestaurantComponent,
+        children: [
+          { path: ':id', component: RestaurantItemComponent }
+        ]
+    }
 ];
 
 @NgModule({
