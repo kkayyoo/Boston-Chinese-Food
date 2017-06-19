@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="city-search">
+            <h2>{{ city.name }}</h2>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 city-detail" *ngFor="let cityItem of city.restaurants">
+        <a href="">
+            <img src="{{ cityItem.imagePath }}" alt="{{ cityItem.name }}" class="img-responsive">
+            <p>{{ cityItem.name }}</p>
+        </a>
+    </div>
+</div>
