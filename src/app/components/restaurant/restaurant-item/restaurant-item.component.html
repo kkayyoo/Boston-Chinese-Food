@@ -1,6 +1,30 @@
 <div class="" *ngFor = " let res of restaurantList; let i = index;">
 
 </div>
-<header>
-    <h2>{{ restaurant.name }}</h2>
-</header>
+<!-- <header>
+
+</header> -->
+<div class="container">
+    <div class="row restaurant-header">
+        <div class="col-sm-4">
+            <div class="restaurant-img-dt">
+                <img src="{{ restaurant.imagePath }}" alt="{{ restaurant.name }}" class="img-responsive">
+            </div>
+            <div class="restaurant-bg">
+                <img src="../../../../../assets/images/cuisines/cuisine_bg.png" alt="" class="img-responsive">
+            </div>
+        </div>
+        <div class="col-sm-8 restaurant-info">
+            <h1>{{ restaurant.name }}</h1>
+            <div class="row">
+              <div class="col-sm-6 restaurant-info-dt">
+                  <h3>TEL: {{ restaurant.phone }}</h3>
+                  <h3>Address: {{ restaurant.address }}</h3>
+              </div>
+              <div class="col-sm-6 restaurant-info-dt">
+                  <h3>Cuisine Type: {{ restaurant.type }}</h3>
+                  <h3>Price: {{ restaurant.price }}</h3>
+              </div>
+        </div>
+    </div>
+</div>

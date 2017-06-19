@@ -8,12 +8,12 @@ export class RestaurantService {
     restaurantFood: FeaturedFood[] = [];
 
     private restaurantList: RestaurantDetail[] = [
-        new RestaurantDetail('Boston', 'Sichuan', '781-396-8488', '41 Riverside Ave, Medford, MA',
+        new RestaurantDetail('Chilli Garden', 'Sichuan', '781-396-8488', '41 Riverside Ave, Medford, MA', '$$', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg',
         [
           new FeaturedFood('123', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new FeaturedFood('234', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
         ]),
-        new RestaurantDetail('Brookline', 'Cantonese', '781-396-8488', '41 Riverside Ave, Medford, MA',
+        new RestaurantDetail('Brookline', 'Cantonese', '781-396-8488', '41 Riverside Ave, Medford, MA', '$$', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg',
         [
           new FeaturedFood('123', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new FeaturedFood('234', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),

@@ -5,13 +5,17 @@ export class RestaurantDetail {
     public type: string;
     public phone: string;
     public address: string;
+    public price: string;
+    public imagePath: string;
     public food: FeaturedFood[];
 
-    constructor(name: string, type: string, phone: string, address: string, food: FeaturedFood[]) {
+    constructor(name: string, type: string, phone: string, address: string, price:string, imagePath: string, food: FeaturedFood[]) {
         this.name = name;
         this.type = type;
         this.phone = phone;
         this.address = address;
+        this.price = price;
+        this.imagePath = imagePath;
         this.food = food;
     }
 }
