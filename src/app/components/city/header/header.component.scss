@@ -1,11 +1,31 @@
 header {
     background-color: #eee;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 520px;
 }
 .header-text {
-    position: relative;
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
     display: block;
-    padding: 10% 5%;
+    padding: 0 10%;
+    top: 50%;
     text-align: center;
-
+    width: 100%;
+    height: 520px;
+    transform: translate(0, -50%);
+    h1 {
+        @media (max-width: 640px) {
+            padding-top: 80px;
+        }
+        color: #fff;
+        font-size: 42px;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        padding-top: 175px;
+        text-transform: uppercase;
+    }
 }

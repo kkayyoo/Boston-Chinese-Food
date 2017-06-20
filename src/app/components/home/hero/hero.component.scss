@@ -1,24 +1,36 @@
 $highlight1:   #EF3B20;
 .home-hero {
     background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
     height: calc(100vh - 50px);
+    padding: 0;
     position: relative;
     overflow: hidden;
 }
 .hero-info {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0;
+    position: relative;
     margin: 0 auto;
-    margin-top: 20%;
-    padding-bottom: 20%;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 h1 {
+    color: #fff;
     letter-spacing: 1.5px;
+    padding-top: 15%;
 }
 h3 {
+    color: #fff;
     font-size: 2.2em;
     margin-bottom: 30px;
 }
 p {
+    color: #fff;
     margin-bottom: 50%;
 }
 .hero-btn {

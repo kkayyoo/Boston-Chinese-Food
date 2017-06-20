@@ -10,6 +10,7 @@ import { TypeService } from './type.service';
 })
 export class TypeComponent implements OnInit {
   selectedType: Types;
+  headerImage: string = '../../../../../assets/images/search/chinese-food1.png';
 
   constructor(private typeService: TypeService) { }
 
