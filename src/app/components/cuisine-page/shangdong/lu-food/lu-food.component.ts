@@ -9,14 +9,14 @@ import { FeaturedFood } from '../../../shared/food.model';
 export class LuFoodComponent implements OnInit {
 
   foodList: FeaturedFood[] = [
-    new FeaturedFood('Shangdong Cuisine', '../../../../../assets/images/cuisines/lu-food.png',
-    'Shandong province border the sea, so Shandong cuisine deeply influenced by the sea food. People in Shandong like to use seasoning and flavoring to make cuisine more delicious. The cuisine is generally salty, with a prevalence of light-color sauces. The dishes feature selected materials, adept skill in slicing and perfect cooking techniques. Shandong cuisine is representative of northern China’s cooking and its techniques have been widely absorbed by the imperial dishes of Ming and Qing Dynasties.'),
-    new FeaturedFood('Cantonese Cuisine', '../../../../../assets/images/cuisines/yue-food.png',
-    'Guangdong Cuisine takes fine and rare ingredients and is cooked with polished skills and in a dainty style. It emphasizes a flavor which is clear but not light, refreshing but not common, tender but not crude. In summer and autumn it pursues clarity and in winter and spring, a little more substance. The sauteed dishes always rely upon exquisite presentat ion involving cutting and carving skills. In contrast to the fast-fried cooking method of Sichuan dishes, Guangdong people prefer to braise, stew and sauté their food. These cooking methods aim to preserve the flavor of the dishes.'),
-    new FeaturedFood('Sichuan Cuisine', '../../../../../assets/images/cuisines/sc-food.png',
-    'This combines the cuisines from Chengdu and Chongqing. From as early as the Qing Dynasty (1644 - 1911), books had systematically recorded a total of 38 cooking methods like to scald, wrap, bake, mix, stew, and adhere, etc. Sichuan Cuisine is the most widely served cuisine in China. The dishes of Sichuan Cuisine are famous for their hot and spicy flavor. An outstanding facet of Sichuan dishes is the delicate use of pepper or chili. The ingredients used are great in variety, including poultry, pork, beef, fish, vegetables and tofu.'),
-    new FeaturedFood('Huiyang Cuisine', '../../../../../assets/images/cuisines/hy-food.png', 
-    'Huaiyang cuisine also called "Hui" is derived from the native cooking styles of the region surrounding the lower reaches of the Huai and Yangtze rivers, and centered upon the cities of Huai’an, Yangzhou and Zhenjiang in Jiangsu province. It is widely seen in Chinese culinary circles as the most popular and prestigious style of Jiangsu cuisine.')
+    new FeaturedFood('Sweet and Sour Carp', '../../../../../assets/images/cuisines/food/lu-food.png',
+    'This is a famous traditional dish of Shandong province, and legend has it that it rose to fame in a small town by the Yellow River. This golden brown, crisp fish will certainly be fresh if you order it in Shandong, and the fragrant smell along with the sweet and sour tastes are sure to leave you satisfied.'),
+    new FeaturedFood('Stewed Pork Hock', '../../../../../assets/images/cuisines/food/zhouzi.png',
+    'Stewed pork hock is traditional Lu cuisine that is good in color, flavor and taste. The pork hock is scraped clean, cut into 2-cm square pieces and boil in water added scallion, ginger and pepper until soft. Fish out the pork hock, when the soup solidified, put the pork hock again until frozen. Dip in garlic paste when taking it.'),
+    new FeaturedFood('Dezhou Stewed Chicken', '../../../../../assets/images/cuisines/food/dezhou-chicken.png',
+    'It’s one of the typical Shandong cuisines, stewed with honey, fennel, sugar and other condiments for several hours. In the 1950’s, Dezhou stewed chicken is eaten by president Mao, then it’s known throughout the country. The chicken is so well cooked, although the shape of the chicken is preserved, the meat easily separates from the bone.'),
+    new FeaturedFood('Chicken Ball in Milk Soup', '../../../../../assets/images/cuisines/food/milk_soup.png',
+    'People in Shandong like to use milk to make soup. Milk soup is a symbol of Shandong cuisine. The main materials of this cuisine are chicken breast and water chestnut. Cush the chicken breast and water chestnut into muddy shape, then stewed with milk and water for several hours. The soup is full of fragrance with milk and chicken.')
   ];
 
 
