@@ -10,7 +10,7 @@ export class YueFoodComponent implements OnInit {
 
   yueFoodList: FeaturedFood[] = [
     new FeaturedFood('Dry-Fried Beef and Noodles', '../../../../../assets/images/cuisines/food/beefnoodles.png',
-    'Beef chow fun or stir fried rice noodles with beef (干炒牛河) is a popular Cantonese noodle dish in domestic and overseas Chinese restaurants. It seems like a simple dish, but it requires considerable stir fry skills to make properly. Actually, preparation of this dish is widely used as an entry-level test for someone applying to be a chef in a Cantonese restaurant.'),
+    'Beef chow fun or stir fried rice noodles with beef is a popular Cantonese noodle dish in domestic and overseas Chinese restaurants. It seems like a simple dish, but it requires considerable stir fry skills to make properly. Actually, preparation of this dish is widely used as an entry-level test for someone applying to be a chef in a Cantonese restaurant.'),
     new FeaturedFood('BBQ Pork ( Char Siu )', '../../../../../assets/images/cuisines/food/bbqpork.png',
     'BBQ Pork ( Char Siu ) is one of the famous Cantonese dishes. It can be directly served with rice, noodle, beer, or tea. It can also be one ingredient to make other recipes, stir fry with groud, vegetable, or to stir fry with rice, of course, it is so famous of dim sum BBQ Pork Bun. Guangdong Roasted cuisines (Hong Kong Styles) are so famous all over the world, you can see the roasted meats shops every where in Hong Kong, Guangdong and in any Chinatown.'),
     new FeaturedFood('Dim Sum', '../../../../../assets/images/cuisines/food/dimsum.png',
