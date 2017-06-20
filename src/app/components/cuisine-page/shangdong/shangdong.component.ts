@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shangdong.component.scss']
 })
 export class ShangdongComponent implements OnInit {
+  headerImage: string = '../../../../../assets/images/cuisines/lu-bg.png';
 
   constructor() { }
 

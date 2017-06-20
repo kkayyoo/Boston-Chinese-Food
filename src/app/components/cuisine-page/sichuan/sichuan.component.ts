@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sichuan.component.scss']
 })
 export class SichuanComponent implements OnInit {
+  headerImage: string = '../../../../../assets/images/cuisines/chuan-bg.png';
 
   constructor() { }
 

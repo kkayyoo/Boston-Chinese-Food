@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./huaiyang.component.scss']
 })
 export class HuaiyangComponent implements OnInit {
+  headerImage: string = '../../../../../assets/images/cuisines/su-bg.png';
 
   constructor() { }
 

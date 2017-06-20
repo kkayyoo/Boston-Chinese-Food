@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cantonese.component.scss']
 })
 export class CantoneseComponent implements OnInit {
+  headerImage: string = '../../../../../assets/images/cuisines/gz-bg.png';
 
   constructor() { }
 

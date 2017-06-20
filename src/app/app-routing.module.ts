@@ -53,7 +53,7 @@ const appRouters: Routes = [
         path: 'cuisine',
         component: CuisinePageComponent,
         children: [
-          { path: 'shangdong', component: ShangdongComponent },
+          { path: 'shandong', component: ShangdongComponent },
           { path: 'cantonese', component: CantoneseComponent },
           { path: 'sichuan', component: SichuanComponent },
           { path: 'huaiyang', component: HuaiyangComponent },
