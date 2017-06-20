@@ -1,14 +1,32 @@
+$highlight1: #EF3B20;
 a {
     cursor: pointer;
 }
 .story-detail {
+    margin: 20px auto;
+    margin-bottom: 40px;
     p {
-        background-color: #EF3B20;
+        background-color: $highlight1;
         color: #fff;
         font-size: 16px;
-        padding: 5px;
+        padding: 8px;
         text-align: center;
-
+    }
+    .story-dt-img {
+        position: relative;
+        overflow: hidden;
+        img {
+            -webkit-transition: all .3s ease-in;
+            transition: all .3s ease-out;
+        }
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+        p {
+            background-color: darken($highlight1, 10%);
+        }
     }
 }
 .app-modal-header {

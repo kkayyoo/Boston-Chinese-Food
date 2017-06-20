@@ -1,33 +1,33 @@
-<!-- <div class="row">
-   <a *ngFor="let storyItem of storyList; let i = index" (click)="modal.show()" >
-      <div class="col-sm-3 story-detail">
-            <img src="{{ storyItem.imagePath }}" alt="{{ storyItem.name }}" class="img-responsive">
-            <p>{{ storyItem.name }}</p>
-      </div>
-    </a>
-</div> -->
 <div class="row">
     <a (click)="modal1.show()" >
        <div class="col-sm-3 story-detail">
-            <img src="../../../../assets/images/story/feipian.png" alt="" class="img-responsive">
+           <div class="story-dt-img">
+               <img src="../../../../assets/images/story/feipian.png" alt="" class="img-responsive">
+           </div>
             <p>Fuqi Feipian</p>
        </div>
      </a>
      <a (click)="modal2.show()" >
         <div class="col-sm-3 story-detail">
-            <img src="../../../../assets/images/story/newyear.png" alt="" class="img-responsive">
+            <div class="story-dt-img">
+                <img src="../../../../assets/images/story/newyear.png" alt="" class="img-responsive">
+            </div>
             <p>Chinese New Year Dishes</p>
         </div>
       </a>
       <a (click)="modal3.show()" >
          <div class="col-sm-3 story-detail">
-              <img src="../../../../assets/images/story/dumplings.png" alt="" class="img-responsive">
+             <div class="story-dt-img">
+                 <img src="../../../../assets/images/story/dumplings.png" alt="" class="img-responsive">
+             </div>
               <p>Chinese Dumplings</p>
          </div>
        </a>
        <a (click)="modal4.show()" >
           <div class="col-sm-3 story-detail">
-              <img src="../../../../assets/images/story/general-tsos-chicken.png" alt="" class="img-responsive">
+              <div class="story-dt-img">
+                <img src="../../../../assets/images/story/general-tsos-chicken.png" alt="" class="img-responsive">
+              </div>
               <p>General Tso's Chicken</p>
           </div>
         </a>
