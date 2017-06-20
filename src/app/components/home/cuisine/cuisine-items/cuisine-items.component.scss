@@ -1,4 +1,9 @@
+$highlight1: #EF3B20;
+
 .cuisine-detail {
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+    }
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
@@ -17,11 +22,9 @@
     }
     p {
       font-size: 16px;
-      letter-spacing: 1px;
+      line-height: 1.5;
       margin: 30px auto;
     }
-
-
 }
 .even {
     flex-direction: row;
@@ -44,4 +47,15 @@
   top: -40%;
   left: 10%;
   z-index: -20;
+}
+.cuisine-btn {
+    background-color: #EF3B20;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 8px 18px;
+
+    &:hover {
+        background-color: darken($highlight1, 10%);
+    }
 }
