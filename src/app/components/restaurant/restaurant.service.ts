@@ -8,6 +8,7 @@ export class RestaurantService {
     restaurantFood: FeaturedFood[] = [];
 
     private restaurantList: RestaurantDetail[] = [
+    //Medford
         //0
         new RestaurantDetail('Chilli Garden', 'Sichuan', '781-396-8488', '41 Riverside Ave, Medford, MA', '$$', '../../../../assets/images/restaurants/medford/ChilliGarden/chilli_garden.png',
         '../../../../assets/images/restaurants/medford/ChilliGarden/map.png', '12:00 noon - 9:30 pm', '12:00 noon - 10:30 pm',
@@ -31,6 +32,16 @@ export class RestaurantService {
         [
           new FeaturedFood('123', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
           new FeaturedFood('234', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Drink-Recipe-Pisco-Sour-Cocktail-Alcohol-Party-829477.jpg', 'XYZ'),
+        ]),
+    //Malden
+        //3
+        new RestaurantDetail('Ming’s Seafood Restaurant', 'Cantonese', '781-321-3888', '19 Pleasant St, Malden, MA 02148', '$', '../../../../assets/images/restaurants/malden/ming/ming.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 1:00 am',
+        [
+          new FeaturedFood('Dim Sum', '../../../../assets/images/restaurants/malden/ming/dimsum.png', ''),
+          new FeaturedFood('Salt & Pepper Calamari', '../../../../assets/images/restaurants/malden/ming/calamari.png', ''),
+          new FeaturedFood('Twin Ginger Sallion Lobster', '../../../../assets/images/restaurants/malden/ming/lobster.png', ''),
+          new FeaturedFood('Dried Scallop Egg White Fried Rice', '../../../../assets/images/restaurants/malden/ming/friedrice.png', ''),
         ]),
     ];
 
