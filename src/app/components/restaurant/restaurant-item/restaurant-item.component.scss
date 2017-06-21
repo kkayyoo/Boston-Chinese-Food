@@ -41,3 +41,50 @@ header {
         text-align: center;
     }
 }
+.res-food-dt {
+    p {
+        font-size: 16px;
+        padding: 8px;
+        display: block;
+        width: 100%;
+        background-color: #EF3B20;
+        color: #fff;
+    }
+}
+.res-dt {
+    background-color: #f9f5f5;
+    position: relative;
+    width: 100%;
+    margin: 40px auto;
+    padding: 60px 0 60px 0;
+}
+.res-map {
+  padding-right: 40px;
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+}
+.res-map-dt {
+    border: 10px double #000;
+    position: relative;
+    width: 80%;
+}
+.res-hours {
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+          font-size: 16px;
+          padding-bottom: 8px;
+        }
+    }
+}
