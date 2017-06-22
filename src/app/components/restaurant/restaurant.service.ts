@@ -256,8 +256,79 @@ export class RestaurantService {
           new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
-
-
+    //Quincy
+        //28
+        new RestaurantDetail('Chili Square', 'Sichuan', '617-472-8888', '666 Hancock St, Quincy, MA 02170', '$$', '../../../../assets/images/restaurants/quincy/chillisquare/chillisquare.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //29
+        new RestaurantDetail('L&C Asian Restaurant', 'Sichuan, Hot Pot', '617-328-3288', '47-49 Billings Rd, Quincy, MA 02171', '$$', '../../../../assets/images/restaurants/quincy/l&c/l&c.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //30
+        new RestaurantDetail('South Garden', 'Cantonese', '617-328-6628', '217B Quincy Ave, Quincy, MA 02269', '$$', '../../../../assets/images/restaurants/quincy/southgarden/south.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //31
+        new RestaurantDetail('Winsor Dim Sum House & Bar', 'Cantonese, Dim Sum', '617-481-5383', '706 Hancock St, Quincy, MA 02170', '$$', '../../../../assets/images/restaurants/quincy/winsor/winsor.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //32
+        new RestaurantDetail('East Chinatown Restaurant', 'Cantonese, Dim Sum', '617-472-9928', '415 Hancock St, Quincy, MA 02171', '$$', '../../../../assets/images/restaurants/quincy/eastchinatown/east.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //33
+        new RestaurantDetail('Imperial Terrace', 'Cantonese, Dim Sum', '617-471-2255', '105 Sea St, Quincy, MA 02169', '$', '../../../../assets/images/restaurants/quincy/imperial/imperial.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //34
+        new RestaurantDetail('The China Restaurant and Sports Bar', 'Cantonese, Dim Sum', '617-786-8890', '681 Hancock St, Quincy, MA 02170', '$', '../../../../assets/images/restaurants/quincy/thechina/thechina.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
+        //35
+        new RestaurantDetail('China Pearl', 'Cantonese, Dim Sum', '617-773-9838', '237 Quincy Ave, Quincy, MA 02169', '$', '../../../../assets/images/restaurants/quincy/pearl/pearl.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
     ];
 
     getRestaurants() {
