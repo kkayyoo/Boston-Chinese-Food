@@ -212,7 +212,7 @@ export class RestaurantService {
         ]),
     //Brookline
         //23
-        new RestaurantDetail('Bess’s Cafe', 'Noodles, Buns', '617-879-0993', '224 Cypress St, Brookline, MA 02445', '$', '../../../../assets/images/restaurants/brookline/besscafe/bess.png',
+        new RestaurantDetail('Bess’s Cafe', 'Noodles, Buns', '617-879-0993', '224 Cypress St, Brookline, MA 02445', '$$', '../../../../assets/images/restaurants/brookline/besscafe/bess.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Spicy Beef Soup Noodles', '../../../../assets/images/restaurants/brookline/besscafe/noodles.png', ''),
@@ -221,7 +221,7 @@ export class RestaurantService {
           new FeaturedFood('Spicy Dumplings', '../../../../assets/images/restaurants/brookline/besscafe/spicydumpling.png', ''),
         ]),
         //24
-        new RestaurantDetail('Sichuan Gourmet', 'Sichuan', '617-277-4226', '1004 Beacon St, Brookline, MA 02446', '$', '../../../../assets/images/restaurants/brookline/sichuangourmet/oldsichuan.png',
+        new RestaurantDetail('Sichuan Gourmet', 'Sichuan', '617-277-4226', '1004 Beacon St, Brookline, MA 02446', '$$', '../../../../assets/images/restaurants/brookline/sichuangourmet/oldsichuan.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
@@ -230,7 +230,7 @@ export class RestaurantService {
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
         //25
-        new RestaurantDetail('Wu Er by WOW Barbecue', 'Barbecue', '617-566-8858', '320 Washington St, Brookline, MA 02445', '$', '../../../../assets/images/restaurants/brookline/wuer/wuer.png',
+        new RestaurantDetail('Wu Er by WOW Barbecue', 'Barbecue', '617-566-8858', '320 Washington St, Brookline, MA 02445', '$$', '../../../../assets/images/restaurants/brookline/wuer/wuer.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
@@ -239,7 +239,7 @@ export class RestaurantService {
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
         //26
-        new RestaurantDetail('Sichuan Garden', 'Sichuan', '617-734-1870', '295 Washington St, Brookline, MA 02445', '$', '../../../../assets/images/restaurants/brookline/sichuangarden/sichuangarden.png',
+        new RestaurantDetail('Sichuan Garden', 'Sichuan', '617-734-1870', '295 Washington St, Brookline, MA 02445', '$$', '../../../../assets/images/restaurants/brookline/sichuangarden/sichuangarden.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
@@ -248,7 +248,7 @@ export class RestaurantService {
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
         //27
-        new RestaurantDetail('Golden Temple', 'Chinese', '617-277-9722', '1651 Beacon St, Brookline, MA 02445', '$', '../../../../assets/images/restaurants/brookline/goldentemple/goldentemple.png',
+        new RestaurantDetail('Golden Temple', 'Chinese', '617-277-9722', '1651 Beacon St, Brookline, MA 02445', '$$', '../../../../assets/images/restaurants/brookline/goldentemple/goldentemple.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
