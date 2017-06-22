@@ -20,7 +20,7 @@ export class RestaurantService {
 
         ]),
         //1
-        new RestaurantDetail('Shanghai Moon', 'Chinese, Japanese', '781-396-8881', '442 Salem St, Medford, MA ', '$$', '../../../../assets/images/restaurants/medford/ShanghaiMoon/shanghai_moon.png',
+        new RestaurantDetail('Shanghai Moon', 'Huaiyang', '781-396-8881', '442 Salem St, Medford, MA ', '$$', '../../../../assets/images/restaurants/medford/ShanghaiMoon/shanghai_moon.png',
         '../../../../assets/images/restaurants/medford/ChilliGarden/map.png', '12:00 noon - 9:30 pm', '12:00 noon - 10:30 pm',
         [
           new FeaturedFood('123', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg', 'ABC'),
@@ -114,6 +114,103 @@ export class RestaurantService {
           new FeaturedFood('Barbecue', '../../../../assets/images/restaurants/malden/wow/bbq.png', ''),
           new FeaturedFood('Steamed Pork Shoulder', '../../../../assets/images/restaurants/malden/fuloon/pork.png', ''),
         ]),
+        //12
+        new RestaurantDetail('Golden Garden', 'Shandong', '781-322-3708', '9 Highland Ave, Malden, MA 02148', '$$', '../../../../assets/images/restaurants/malden/goldengarden/golden.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sour Cabbage', '../../../../assets/images/restaurants/malden/goldengarden/cabbage.png', ''),
+          new FeaturedFood('Braised Yellow Croaker', '../../../../assets/images/restaurants/malden/goldengarden/fish.png', ''),
+          new FeaturedFood('Chicken Stew Mushroom', '../../../../assets/images/restaurants/malden/goldengarden/chicken.png', ''),
+          new FeaturedFood('Pork Skin Aspic', '../../../../assets/images/restaurants/malden/goldengarden/skin.png', ''),
+        ]),
+    //Cambridge
+        //13
+        new RestaurantDetail('Shanghai Fresh', 'Huaiyang', '617-868-8877', '735 Massachusetts Ave, Cambridge, MA 02139', '$$', '../../../../assets/images/restaurants/cambridge/shanghaifresh/shanghaifresh.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Shanghai Steamed Pork Buns', '../../../../assets/images/restaurants/cambridge/shanghaifresh/dumplings.png', ''),
+          new FeaturedFood('Lion head', '../../../../assets/images/restaurants/cambridge/shanghaifresh/lion.png', ''),
+          new FeaturedFood('Shanghai Sticky Ricerice', '../../../../assets/images/restaurants/cambridge/shanghaifresh/rice.png', ''),
+        ]),
+        //14
+        new RestaurantDetail('House of Chang', 'Cantonese, Dim Sum', '617-547-9888', '282 Concord Ave, Cambridge, MA 02138', '$$', '../../../../assets/images/restaurants/cambridge/houseofchang/chang.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Shanghai Steamed Pork Buns', '../../../../assets/images/restaurants/cambridge/shanghaifresh/dumplings.png', ''),
+          new FeaturedFood('Lion head', '../../../../assets/images/restaurants/cambridge/shanghaifresh/lion.png', ''),
+          new FeaturedFood('Shanghai Sticky Ricerice', '../../../../assets/images/restaurants/cambridge/shanghaifresh/rice.png', ''),
+        ]),
+        //15
+        new RestaurantDetail('Qing Dao Garden', 'Shandong', '617-492-7540', '2382 Massachusetts Ave, Cambridge, MA 02138', '$$', '../../../../assets/images/restaurants/cambridge/qingdaogarden/qingdao.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //16
+        new RestaurantDetail('Dumpling House', 'Huaiyang', '617-661-8066', '950 Massachusetts Ave, Cambridge, MA 02139', '$$', '../../../../assets/images/restaurants/cambridge/dumplinghouse/dumplinghouse.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //17
+        new RestaurantDetail('Happy Lamb Hot Pot', 'Hot Pot', '857-285-6933', '485 Massachusetts Ave, Cambridge, MA 02139', '$$', '../../../../assets/images/restaurants/cambridge/happylamb/happylamb.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //18
+        new RestaurantDetail('Mary Chung Restaurant', 'Sichuan', '617-864-1991', '460 Massachusetts Ave, Cambridge, MA 02139', '$$', '../../../../assets/images/restaurants/cambridge/marychung/marychung.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //19
+        new RestaurantDetail('Cilantro', 'Sichuan', '617-945-1768', '1105 Massachusetts Ave, Cambridge, MA 02138', '$$', '../../../../assets/images/restaurants/cambridge/cilantro/cilantro.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //20
+        new RestaurantDetail('Tom’s Bao Bao', 'Buns', '617-945-0067', '84 Winthrop St, Cambridge, MA 02138', '$', '../../../../assets/images/restaurants/cambridge/tombaobao/bao.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
+          new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
+          new FeaturedFood('Spicy Lamb w/ Cumin', '../../../../assets/images/restaurants/cambridge/qingdaogarden/lamb.png', ''),
+          new FeaturedFood('Steamed Buns', '../../../../assets/images/restaurants/cambridge/qingdaogarden/buns.png', ''),
+        ]),
+        //21
+        new RestaurantDetail('Hong Kong', 'Cantonese', '617-864-5311', '1238 Massachusetts Ave, Cambridge, MA 31210', '$$', '../../../../assets/images/restaurants/cambridge/hongkong/hongkong.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Shanghai Steamed Pork Buns', '../../../../assets/images/restaurants/cambridge/shanghaifresh/dumplings.png', ''),
+          new FeaturedFood('Lion head', '../../../../assets/images/restaurants/cambridge/shanghaifresh/lion.png', ''),
+          new FeaturedFood('Shanghai Sticky Ricerice', '../../../../assets/images/restaurants/cambridge/shanghaifresh/rice.png', ''),
+        ]),
+        //22
+        new RestaurantDetail('Royal East Restaurant', 'Cantonese', '617-661-1660', '792 Main St, Cambridge, MA 02139', '$$', '../../../../assets/images/restaurants/cambridge/royaleast/royal.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Shanghai Steamed Pork Buns', '../../../../assets/images/restaurants/cambridge/shanghaifresh/dumplings.png', ''),
+          new FeaturedFood('Lion head', '../../../../assets/images/restaurants/cambridge/shanghaifresh/lion.png', ''),
+          new FeaturedFood('Shanghai Sticky Ricerice', '../../../../assets/images/restaurants/cambridge/shanghaifresh/rice.png', ''),
+        ]),
+
 
     ];
 
