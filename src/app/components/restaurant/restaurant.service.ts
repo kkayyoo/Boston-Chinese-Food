@@ -438,6 +438,15 @@ export class RestaurantService {
           new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
+        //48
+        new RestaurantDetail('Shanghai Gate', 'Huaiyang', '617-773-9838', '237 Quincy Ave, Quincy, MA 02169', '$$', '../../../../assets/images/restaurants/shanghaigate.png',
+        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        [
+          new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
+          new FeaturedFood('Fish Fillet w/ Chilli Miso Sauce', '../../../../assets/images/restaurants/brookline/sichuangourmet/fish.png', ''),
+          new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
+          new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
+        ]),
     ];
 
     getRestaurants() {
