@@ -55,8 +55,14 @@ export class CityService {
         ]),
         new Cities('Quincy', '8',
         [
-          new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg'),
-          new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg')
+          new Restaurant('Chili Square', '/restaurant/28', '../../../../assets/images/restaurants/quincy/chillisquare/chillisquare.png'),
+          new Restaurant('South Garden', '/restaurant/30', '../../../../assets/images/restaurants/quincy/southgarden/south.png'),
+          new Restaurant('East Chinatown Restaurant', '/restaurant/32', '../../../../assets/images/restaurants/quincy/eastchinatown/east.png'),
+          new Restaurant('Imperial Terrace', '/restaurant/33', '../../../../assets/images/restaurants/quincy/imperial/imperial.png'),
+          new Restaurant('China Pearl', '/restaurant/35', '../../../../assets/images/restaurants/quincy/pearl/pearl.png'),
+          new Restaurant('L&C Asian Restaurant', '/restaurant/29', '../../../../assets/images/restaurants/quincy/l&c/l&c.png'),
+          new Restaurant('Winsor Dim Sum House & Bar', '/restaurant/31', '../../../../assets/images/restaurants/quincy/winsor/winsor.png'),
+          new Restaurant('The China Restaurant and Sports Bar', '/restaurant/34', '../../../../assets/images/restaurants/quincy/thechina/thechina.png'),
         ]),
     ];
 

@@ -312,7 +312,7 @@ export class RestaurantService {
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
         //34
-        new RestaurantDetail('The China Restaurant and Sports Bar', 'Cantonese, Dim Sum', '617-786-8890', '681 Hancock St, Quincy, MA 02170', '$', '../../../../assets/images/restaurants/quincy/thechina/thechina.png',
+        new RestaurantDetail('The China Restaurant and Sports Bar', 'Cantonese, Dim Sum', '617-786-8890', '681 Hancock St, Quincy, MA 02170', '$$', '../../../../assets/images/restaurants/quincy/thechina/thechina.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
@@ -321,7 +321,7 @@ export class RestaurantService {
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
         //35
-        new RestaurantDetail('China Pearl', 'Cantonese, Dim Sum', '617-773-9838', '237 Quincy Ave, Quincy, MA 02169', '$', '../../../../assets/images/restaurants/quincy/pearl/pearl.png',
+        new RestaurantDetail('China Pearl', 'Cantonese, Dim Sum', '617-773-9838', '237 Quincy Ave, Quincy, MA 02169', '$$', '../../../../assets/images/restaurants/quincy/pearl/pearl.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
         [
           new FeaturedFood('Sliced Pork Belly w/ Fresh Garlic', '../../../../assets/images/restaurants/brookline/sichuangourmet/pork.png', ''),
