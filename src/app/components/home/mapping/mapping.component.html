@@ -10,7 +10,20 @@
           *ngIf="selectedMap; else infoText"
           [mapping]='selectedMap'></app-map-items>
         <ng-template #infoText>
-          <p>Please select a city!</p>
+          <div class="start-info">
+              <h3>Chinese Food</h3>
+              <p>Find out different Chinese restaurants arount the great Boston Areas.</p>
+              <h3>Dishes' Stories</h3>
+              <p>Learn about some interesting stories behind the Dish</p>
+              <h3>Chinese Culture</h3>
+              <p>Explore the real Chinese delicious by understanding the four famous cuisines.</p>
+          </div>
+          <div class="row">
+              <div class="col-sm-12">
+                  <img src="../../../../../assets/images/map/long.png" alt="" class="img-responsive">
+              </div>
+          </div>
+
         </ng-template>
     </div>
 </div>
