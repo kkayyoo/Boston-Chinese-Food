@@ -1,3 +1,7 @@
+h2 {
+    margin: 60px auto;
+    font-size: 38px;
+}
 .city-search {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -7,6 +11,18 @@
 .city-detail {
     margin: 20px 0;
     padding: 0 20px;
+    &:hover {
+        img {
+            border: 3px solid #000;
+        }
+        p {
+            background-color: #000;
+            color: #fff;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
 
      p {
        font-size: 20px;
@@ -15,4 +31,7 @@
        text-align: center;
        padding: 8px 10px;
      }
+}
+.city-dt {
+    margin-bottom: 80px;
 }
