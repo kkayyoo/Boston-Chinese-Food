@@ -10,6 +10,8 @@ $highlight1:   #EF3B20;
      li {
         a {
           color: #fff;
+          font-size: 16px;
+          font-weight: 500;
         }
      }
      .open {
@@ -25,6 +27,8 @@ $highlight1:   #EF3B20;
       a {
         background-color: #fff !important;
         color: $highlight1;
+        font-size: 16px;
+        font-weight: 500;
         padding: 8px 12px;
         &:hover {
           background-color: darken($highlight1, 10%) !important;
@@ -33,4 +37,10 @@ $highlight1:   #EF3B20;
       }
     }
   }
+}
+.navbar-brand {
+    padding-top: 6px;
+    img {
+      width: 100px;
+    }
 }
