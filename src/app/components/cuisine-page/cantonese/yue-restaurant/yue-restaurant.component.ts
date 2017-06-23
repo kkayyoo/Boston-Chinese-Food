@@ -9,8 +9,10 @@ import { Restaurant } from '../../../shared/restaurants.model';
 export class YueRestaurantComponent implements OnInit {
 
   restaurantYue: Restaurant[] = [
-    new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg'),
-    new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg')
+    new Restaurant('Hei La Moon', '/restaurant/46', '../../../../assets/images/restaurants/boston/heilamoon/heilamoon.png'),
+    new Restaurant('Peach Farm', '/restaurant/43', '../../../../assets/images/restaurants/boston/peachfarm/peachfarm.png'),
+    new Restaurant('Clay Pot Cafe', '/restaurant/41', '../../../../assets/images/restaurants/boston/claypot/claypot.png'),
+    new Restaurant('Ming’s Seafood', '/restaurant/3', '../../../../assets/images/restaurants/malden/ming/ming.png'),
   ];
 
   constructor() { }

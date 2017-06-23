@@ -9,8 +9,10 @@ import { Restaurant } from '../../../shared/restaurants.model';
 export class LuRestaurantComponent implements OnInit {
 
   restaurantLu: Restaurant[] = [
-    new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg'),
-    new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg')
+    new Restaurant('Golden Garden', '/restaurant/12', '../../../../assets/images/restaurants/malden/goldengarden/golden.png'),
+    new Restaurant('Go Chi', '/restaurant/10', '../../../../assets/images/restaurants/malden/gochi/gochi.png'),
+    new Restaurant('FuLoon Restaurant', '/restaurant/5', '../../../../assets/images/restaurants/malden/fuloon/fuloon.png'),
+    new Restaurant('Qing Dao Garden', '/restaurant/15', '../../../../assets/images/restaurants/cambridge/qingdaogarden/qingdao.png'),
   ];
 
   constructor() { }
