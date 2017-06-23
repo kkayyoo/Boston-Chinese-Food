@@ -329,7 +329,7 @@ export class RestaurantService {
           new FeaturedFood('Dan Dan Noodles', '../../../../assets/images/restaurants/brookline/sichuangourmet/dandan.png', ''),
           new FeaturedFood('Kung Pao Chicken', '../../../../assets/images/restaurants/brookline/sichuangourmet/chicken.png', ''),
         ]),
-    //Chinatown
+    //Chinatown & Boston
         //36
         new RestaurantDetail('Q Restaurant', 'Hot Pot', '617-773-9838', '237 Quincy Ave, Quincy, MA 02169', '$$', '../../../../assets/images/restaurants/boston/q/q.png',
         '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',

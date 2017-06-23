@@ -10,8 +10,19 @@ export class CityService {
     private cityList: Cities[] = [
         new Cities('Boston', '12',
         [
-          new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg'),
-          new Restaurant('ABC', 'restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg')
+          new Restaurant('Q Restaurant', '/restaurant/36', '../../../../assets/images/restaurants/boston/q/q.png'),
+          new Restaurant('Dumpling Palace', '/restaurant/38', '../../../../assets/images/restaurants/boston/dumplingpalace/dumplingpalace.png'),
+          new Restaurant('Hot Eastern', '/restaurant/39', '../../../../assets/images/restaurants/boston/hoteastern/hot.png'),
+          new Restaurant('Clay Pot Cafe', '/restaurant/41', '../../../../assets/images/restaurants/boston/claypot/claypot.png'),
+          new Restaurant('New Golden Gate', '/restaurant/42', '../../../../assets/images/restaurants/boston/newgoldengate/newgoldengate.png'),
+          new Restaurant('Peach Farm', '/restaurant/43', '../../../../assets/images/restaurants/boston/peachfarm/peachfarm.png'),
+          new Restaurant('Hong Kong Eatery', '/restaurant/44', '../../../../assets/images/restaurants/boston/hongkongeatery/hongkongeatery.png'),
+          new Restaurant('Hei La Moon', '/restaurant/46', '../../../../assets/images/restaurants/boston/heilamoon/heilamoon.png'),
+          new Restaurant('5 Spices House', '/restaurant/47', '../../../../assets/images/restaurants/boston/5spicy/5spicy.png'),
+          new Restaurant('New Jumbo Seafood Restaurant', '/restaurant/37', '../../../../assets/images/restaurants/boston/jumboseafood/jumboseafood.png'),
+          new Restaurant('Gourmet Dumpling House', '/restaurant/40', '../../../../assets/images/restaurants/boston/dumplinghouse/dumplinghouse.png'),
+          new Restaurant('Gaga Seafood Restaurant', '/restaurant/45', '../../../../assets/images/restaurants/boston/gaga/gaga.png'),
+
         ]),
         new Cities('Brookline', '5',
         [
