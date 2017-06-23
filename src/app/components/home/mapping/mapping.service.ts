@@ -46,8 +46,10 @@ export class MappingService {
       ]),
       new City('Quincy', '../../../../../assets/images/map/quincy.png',
       [
-        new Restaurant('ABC', '/restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg'),
-        new Restaurant('ABC', '/restaurant/0', 'http://maxpixel.freegreatpicture.com/static/photo/1x/Cocktail-Party-Recipe-Drink-Alcohol-Pisco-Sour-831768.jpg')
+        new Restaurant('China Pearl', '/restaurant/35', '../../../../assets/images/restaurants/quincy/pearl/pearl.png'),
+        new Restaurant('L&C Asian', '/restaurant/29', '../../../../assets/images/restaurants/quincy/l&c/l&c.png'),
+        new Restaurant('Winsor Dim Sum House & Bar', '/restaurant/31', '../../../../assets/images/restaurants/quincy/winsor/winsor.png'),
+        new Restaurant('The China Restaurant and Sports Bar', '/restaurant/34', '../../../../assets/images/restaurants/quincy/thechina/thechina.png'),
       ]),
     ];
 
