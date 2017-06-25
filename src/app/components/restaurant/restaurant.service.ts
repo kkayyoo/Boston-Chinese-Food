@@ -142,7 +142,7 @@ export class RestaurantService {
         ]),
         //15
         new RestaurantDetail('Qing Dao Garden', 'Shandong', '617-492-7540', '2382 Massachusetts Ave, Cambridge, MA 02138', '$$', '../../../../assets/images/restaurants/cambridge/qingdaogarden/qingdao.png',
-        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        '../../../../assets/images/restaurants/cambridge/qingdaogarden/map.png', '11:30 am - 10:00 pm', '11:30 am - 10:00 pm',
         [
           new FeaturedFood('Zha Jiang Mian', '../../../../assets/images/restaurants/cambridge/qingdaogarden/noodles.png', ''),
           new FeaturedFood('Dumplings', '../../../../assets/images/restaurants/cambridge/qingdaogarden/dumpling1.png', ''),
@@ -213,7 +213,7 @@ export class RestaurantService {
     //Brookline
         //23
         new RestaurantDetail('Bess’s Cafe', 'Noodles, Buns', '617-879-0993', '224 Cypress St, Brookline, MA 02445', '$$', '../../../../assets/images/restaurants/brookline/besscafe/bess.png',
-        '../../../../assets/images/restaurants/malden/ming/map.png', '9:00 am - 1:00 am', '9:00 am - 2:00 am',
+        '../../../../assets/images/restaurants/brookline/besscafe/map.png', '11:00 am - 8:00 pm', '11:00 am - 7:00 pm',
         [
           new FeaturedFood('Spicy Beef Soup Noodles', '../../../../assets/images/restaurants/brookline/besscafe/noodles.png', ''),
           new FeaturedFood('Pork Belly Bun', '../../../../assets/images/restaurants/brookline/besscafe/porkbun.png', ''),
