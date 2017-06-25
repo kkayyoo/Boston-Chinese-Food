@@ -8,7 +8,7 @@
 <div class="type-dt">
     <div class="row">
         <div class="col-sm-4 type-detail" *ngFor="let typeItem of type.restaurants">
-            <a href="">
+            <a routerLink="{{ typeItem.link }}">
                 <img src="{{ typeItem.imagePath }}" alt="{{ typeItem.name }}" class="img-responsive">
                 <p>{{ typeItem.name }}</p>
             </a>
