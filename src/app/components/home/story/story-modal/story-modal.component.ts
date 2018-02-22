@@ -19,7 +19,7 @@ export class StoryModalComponent implements OnInit {
   }
 
   public visible = false;
-  private visibleAnimate = false;
+  public visibleAnimate = false;
 
   public show(): void {
     this.visible = true;
